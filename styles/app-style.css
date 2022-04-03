@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+
 }
 
 header{
@@ -32,4 +33,24 @@ footer > p {
 li{
     list-style-type: none;
     text-decoration: none;
+}
+
+#area{
+    display: block;
+    width: 100%;
+    /* border: 3px solid yellowgreen; */
+}
+
+.buttons  {
+    display: inline-flex;
+    float: right;
+    /* border: 3px solid black; */
+}
+
+.buttons .btn {
+    width: 10em;
+}
+
+.col-sm-9 {
+    /* border: 3px solid black; */
 }
